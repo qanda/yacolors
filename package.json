@@ -1,0 +1,30 @@
+{
+  "name": "yacolors",
+  "version": "1.0.0",
+  "description": "Yet another colorizer for node.js console.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "webpack": "webpack",
+    "clean": "rm -rf ./dist",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qanda/yacolors.git"
+  },
+  "author": "qanda <qandasystem@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qanda/yacolors/issues"
+  },
+  "homepage": "https://github.com/qanda/yacolors#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
